@@ -1,0 +1,224 @@
+body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header, footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+        nav {
+            background-color: #555;
+            padding: 0.5em;
+        }
+        nav a {
+            color: white;
+            margin: 0 1em;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            padding: 2em;
+        }
+        section {
+            margin-bottom: 2em;
+        }
+        article {
+            background-color: #f4f4f4;
+            padding: 1em;
+            border-radius: 5px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 1em auto;
+        }
+        ul {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+nav {
+    background-color: #555;
+    padding: 0.5em;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 1em;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 2em;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #f4f4f4;
+    padding: 2em;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+label {
+    display: block;
+    margin-top: 1em;
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 0.7em;
+    margin-top: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    margin-top: 1.5em;
+    padding: 0.8em 1.5em;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.Fondocontactenos {
+                    background-color: #e7d2fb;
+                    margin: 0;
+                } 
+
+        /* Estilos generales */
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #9b9b9b;
+    margin: 0;
+    padding: 0;
+}
+
+/* Contenedor del formulario */
+form {
+    max-width: 600px;
+    margin: 2em auto;
+    background: #ffffff;
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Etiquetas */
+label {
+    display: block;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Campos de entrada */
+input, textarea {
+    width: 100%;
+    padding: 0.8em;
+    margin-bottom: 1.2em;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1em;
+    transition: border-color 0.3s ease;
+}
+
+/* Efecto al enfocar */
+input:focus, textarea:focus {
+    border-color: #007BFF;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0,123,255,0.3);
+}
+
+/* Botón */
+button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 0.9em 1.5em;
+    border: none;
+    border-radius: 6px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover en el botón */
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Ajuste para textarea */
+textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+.sobre-nosotros {
+    max-width: 900px;
+    margin: 2em auto;
+    padding: 2em;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Título */
+.sobre-nosotros h2 {
+    color: #007BFF;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+/* Párrafos */
+.sobre-nosotros p {
+    color: #333;
+    line-height: 1.6;
+    font-size: 1.1em;
+    text-align: justify;
+}
+
+/* Imagen representativa */
+.sobre-nosotros img {
+    display: block;
+    margin: 1.5em auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease;
+}
+
+/* Efecto hover en la imagen */
+.sobre-nosotros img:hover {
+    transform: scale(1.05);
+}
